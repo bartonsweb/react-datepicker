@@ -364,7 +364,11 @@ export function getMonthShortInLocale(month, locale) {
 }
 
 export function getQuarterShortInLocale(quarter, locale) {
-  return formatDate(setQuarter(newDate(), quarter), "LLL", locale);
+  return formatDate(
+    setQuarter(getStartOfQuarter(newDate()), quarter),
+    "LLL",
+    locale
+  );
 }
 
 // ** Utils for some components **

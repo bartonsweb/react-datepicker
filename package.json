@@ -103,9 +103,7 @@
     "webpack-cli": "^3.3.7",
     "webpack-dev-middleware": "^3.7.0",
     "webpack-dev-server": "^3.8.0",
-    "webpack-hot-middleware": "^2.25.0"
-  },
-  "peerDependencies": {
+    "webpack-hot-middleware": "^2.25.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
